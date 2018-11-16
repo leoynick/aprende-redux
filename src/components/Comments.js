@@ -7,6 +7,10 @@ import CommentForm from './CommentForm'
 class Comments extends Component {
   state = { show: true }
 
+  componentDidMount() {
+    this.props.loadComments(this.props.params.postId)
+  }
+
   toggleComments = () => this.setState(({ show }) => ({ show: !show }))
 
   renderComment = ({ from: { full_name: name }, text }, i) => (
