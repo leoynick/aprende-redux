@@ -12,6 +12,10 @@ Code for my Redux Workshop ⚡️
 
 Open this [CodeSandbox](https://codesandbox.io/s/q97z8y8jrq) to learn and play with the basic concepts!
 
+### F.A.Q.
+
+- **Why `redux-thunk` and not `redux-saga`?** Because of [this](https://github.com/kutyel/learn-redux/pull/2)! 🤮
+
 ### Exercises
 
 ```sh
@@ -30,9 +34,9 @@ $ npm start # enjoy! 🚀
 9. Go back to to `src/actions/types.js` and fix the FIXME!
 10. Go back to to `src/actions/index.js` and fix the FIXME!
 11. Go to `src/reducers/comments.js`.
-12. Go to the branch `redux-thunk`, and to `src/actions/creators.js` and have a look! 👀
-13. Where would you dispatch the action for `fetchComments`??? 🤔
-14. #BONUS! (lenses 👓)
+12. Go to the branch `redux-thunk`, and to `src/actions/index.js` and have a look! 👀
+13. Where would you dispatch the action for `fetchComments`??? 🤔 (hint: 2 steps)
+14. ##BONUS## ([lenses](https://github.com/kutyel/aprende-react/pull/2) 👓)
 
 ---
 
